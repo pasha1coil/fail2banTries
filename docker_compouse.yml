@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile.nginx
     ports:
-      - "192.168.0.104:80:80"
+      - "80:80"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
       - ./blocked_urls.conf:/etc/nginx/blocked_urls.conf # Список запрещённых URL

@@ -6,7 +6,7 @@ port = http,https
 filter = nginx-forbidden
 logpath = /var/log/nginx/forbidden_requests.log
 maxretry = 1
-bantime = 120
+bantime = 60
 ignoreself = false
 banaction = bash
 
